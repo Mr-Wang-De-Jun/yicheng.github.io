@@ -1,0 +1,213 @@
+@media screen and (max-width: 768px) {
+  .main {
+    width: 100%;
+    display: flex;
+    margin: 0 auto;
+  }
+  .main .main_left {
+    width: 100%;
+    flex: 2;
+  }
+  .main .main_left span {
+    display: block;
+    width: 100%;
+    height: 3.2rem;
+    border-bottom: 1px solid #ccc;
+    border-left: 3px solid transparent;
+    text-align: center;
+    line-height: 3.2rem;
+    background-color: rgba(0, 0, 0, 0.1);
+  }
+  .main .main_left .span_color {
+    color: red;
+    border-left: 3px solid red;
+  }
+  .main .main_right {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    flex: 8;
+  }
+  .main .main_right .main_right_content {
+    width: 100%;
+    clear: both;
+  }
+  .main .main_right .main_right_content p {
+    width: 100%;
+    height: 2.666667rem;
+    background-color: #eee;
+    text-align: center;
+    line-height: 2.666667rem;
+  }
+  .main .main_right .main_right_content .content_imgandtext {
+    top: 2.666667rem;
+    width: 100%;
+  }
+  .main .main_right .main_right_content .content_imgandtext .main_ul {
+    width: 100%;
+  }
+  .main .main_right .main_right_content .content_imgandtext .main_ul li {
+    float: left;
+    width: 33.3%;
+    height: 6.933333rem;
+    text-align: center;
+    padding-bottom: 20px;
+  }
+  .main .main_right .main_right_content .content_imgandtext .main_ul li a {
+    display: block;
+    margin: 0 auto;
+    width: 80%;
+    height: 100%;
+  }
+  .main .main_right .main_right_content .content_imgandtext .main_ul li a img {
+    width: 60%;
+    height: 80%;
+  }
+  .main .main_right .main_right_content .content_imgandtext .main_ul li a span {
+    display: block;
+    width: 100%;
+    text-align: center;
+  }
+}
+@media screen and (min-width: 768px) and (max-width: 1190px) {
+  .main {
+    width: 768px;
+    display: flex;
+    margin: 0 auto;
+  }
+  .main .main_left {
+    width: 100%;
+    flex: 2;
+  }
+  .main .main_left span {
+    display: block;
+    width: 100%;
+    height: 3.2rem;
+    border-bottom: 1px solid #ccc;
+    border-left: 3px solid transparent;
+    text-align: center;
+    line-height: 3.2rem;
+    background-color: rgba(0, 0, 0, 0.1);
+  }
+  .main .main_left .span_color {
+    color: red;
+    border-left: 3px solid red;
+  }
+  .main .main_right {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    flex: 8;
+  }
+  .main .main_right .main_right_content {
+    width: 100%;
+    clear: both;
+  }
+  .main .main_right .main_right_content p {
+    width: 100%;
+    height: 2.666667rem;
+    background-color: #eee;
+    text-align: center;
+    line-height: 2.666667rem;
+  }
+  .main .main_right .main_right_content .content_imgandtext {
+    top: 2.666667rem;
+    width: 100%;
+  }
+  .main .main_right .main_right_content .content_imgandtext .main_ul {
+    width: 100%;
+  }
+  .main .main_right .main_right_content .content_imgandtext .main_ul li {
+    float: left;
+    width: 33.3%;
+    height: 6.933333rem;
+    text-align: center;
+    padding-bottom: 20px;
+  }
+  .main .main_right .main_right_content .content_imgandtext .main_ul li a {
+    display: block;
+    margin: 0 auto;
+    width: 80%;
+    height: 100%;
+  }
+  .main .main_right .main_right_content .content_imgandtext .main_ul li a img {
+    width: 60%;
+    height: 80%;
+  }
+  .main .main_right .main_right_content .content_imgandtext .main_ul li a span {
+    display: block;
+    width: 100%;
+    text-align: center;
+  }
+}
+@media screen and (min-width: 1190px) {
+  .main {
+    width: 1190px;
+    display: flex;
+    margin: 0 auto;
+  }
+  .main .main_left {
+    width: 100%;
+    flex: 2;
+  }
+  .main .main_left span {
+    display: block;
+    width: 100%;
+    height: 3.2rem;
+    border-bottom: 1px solid #ccc;
+    border-left: 3px solid transparent;
+    text-align: center;
+    line-height: 3.2rem;
+    background-color: rgba(0, 0, 0, 0.1);
+  }
+  .main .main_left .span_color {
+    color: red;
+    border-left: 3px solid red;
+  }
+  .main .main_right {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    flex: 8;
+  }
+  .main .main_right .main_right_content {
+    width: 100%;
+    clear: both;
+  }
+  .main .main_right .main_right_content p {
+    width: 100%;
+    height: 2.666667rem;
+    background-color: #eee;
+    text-align: center;
+    line-height: 2.666667rem;
+  }
+  .main .main_right .main_right_content .content_imgandtext {
+    top: 2.666667rem;
+    width: 100%;
+  }
+  .main .main_right .main_right_content .content_imgandtext .main_ul {
+    width: 100%;
+  }
+  .main .main_right .main_right_content .content_imgandtext .main_ul li {
+    float: left;
+    width: 33.3%;
+    height: 6.933333rem;
+    text-align: center;
+    padding-bottom: 20px;
+  }
+  .main .main_right .main_right_content .content_imgandtext .main_ul li a {
+    display: block;
+    margin: 0 auto;
+    width: 80%;
+    height: 100%;
+  }
+  .main .main_right .main_right_content .content_imgandtext .main_ul li a img {
+    width: 60%;
+    height: 80%;
+  }
+  .main .main_right .main_right_content .content_imgandtext .main_ul li a span {
+    display: block;
+    width: 100%;
+    text-align: center;
+  }
+}

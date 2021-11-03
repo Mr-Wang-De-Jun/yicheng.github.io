@@ -1,0 +1,191 @@
+// 小屏幕
+@media screen and (max-width: 768px) {
+    @min-width:280px;
+    @max-width: 768px;
+    .main{
+        width: 100%;
+        // height: 5.333333rem;
+        margin: 0 auto;
+        // background-color: red;
+        margin-top: .4rem;
+        div{
+            // display: none;
+            .main_item{
+                width: 100%;
+                display: flex;
+                align-items: center;
+                padding-bottom: 1.333333rem;
+                input{
+                    flex: 1;
+                    width: 1.333333rem;
+                    height: 1.333333rem;
+                    margin: 0 .4rem;
+                }
+                img{
+                    flex: 1;
+                    width: 4rem;
+                    height: 4rem;
+                    // vertical-align: middle;
+                }
+                .prices_details{
+                    flex: 8;
+                    margin-left: .666667rem;
+                    p{
+                        text-indent: 1em;
+                        font-size: 1.066667rem;
+                        overflow: hidden;
+                        display: -webkit-box;
+                        -webkit-box-orient: vertical;
+                        -webkit-line-clamp: 2;
+                    }
+                    .prices_number{
+                        display: flex;
+                        width: 100%;
+                        height: 100%;
+                        // background-color: pink;
+                        margin-top: .8rem;
+                        p{
+                            flex: 2;
+                            color: red;
+                            font-size: .933333rem;
+                        }
+                        .number{
+                            margin-right: 2.666667rem;
+                            text-align: center;
+                            // 奇数
+                            & span:nth-child(odd){
+                                display: inline-block;
+                                width: 1.6rem;
+                                height: 1.6rem;
+                                border: 1px solid #ccc;
+                            }
+                            // 偶数
+                            & span:nth-child(even){
+                                margin: 0 .533333rem;
+                            }
+                        }
+                    }
+                }
+            }
+
+            .pay_money_fiexd{
+                position: relative;
+                width: 100%;
+                height: 4.8rem;
+                // background-color: red;
+                .pay_money{
+                    position: fixed;
+                    bottom: 3.333333rem;
+                    width: 100%;
+                    height: 4rem;
+                    background-color: black;
+                }
+            }
+        }
+        
+        .no_login{
+            width: 100%;
+            text-align: center;
+        }
+    }
+}
+// 中等屏幕
+@media screen and (min-width: 768px) and (max-width:1190px) {
+    @min-width:768px;
+    @max-width:1190px;
+    #changeScreen(@min-width,@max-width)
+}
+// 大屏幕
+@media screen and (min-width:1190px){
+    @min-width:1190px;
+    @max-width:1920px;
+    #changeScreen(@min-width,@max-width)
+}
+#changeScreen(@min-width,@max-width){
+    .main{
+        width: @min-width;
+        // height: 5.333333rem;
+        margin: 0 auto;
+        // background-color: red;
+        margin-top: .4rem;
+        div{
+            // display: none;
+            .main_item{
+                width: 100%;
+                display: flex;
+                align-items: center;
+                padding-bottom: 1.333333rem;
+                input{
+                    flex: 1;
+                    width: 1.333333rem;
+                    height: 1.333333rem;
+                    margin: 0 .4rem;
+                }
+                img{
+                    flex: 1;
+                    width: 4rem;
+                    height: 4rem;
+                    // vertical-align: middle;
+                }
+                .prices_details{
+                    flex: 8;
+                    margin-left: .666667rem;
+                    p{
+                        text-indent: 1em;
+                        font-size: 1.066667rem;
+                        overflow: hidden;
+                        display: -webkit-box;
+                        -webkit-box-orient: vertical;
+                        -webkit-line-clamp: 2;
+                    }
+                    .prices_number{
+                        display: flex;
+                        width: 100%;
+                        height: 100%;
+                        // background-color: pink;
+                        margin-top: .8rem;
+                        p{
+                            flex: 2;
+                            color: red;
+                            font-size: .933333rem;
+                        }
+                        .number{
+                            margin-right: 2.666667rem;
+                            text-align: center;
+                            // 奇数
+                            & span:nth-child(odd){
+                                display: inline-block;
+                                width: 1.6rem;
+                                height: 1.6rem;
+                                border: 1px solid #ccc;
+                            }
+                            // 偶数
+                            & span:nth-child(even){
+                                margin: 0 .533333rem;
+                            }
+                        }
+                    }
+                }
+            }
+
+            .pay_money_fiexd{
+                position: relative;
+                width: @min-width;
+                height: 4.8rem;
+                // background-color: red;
+                .pay_money{
+                    position: fixed;
+                    bottom: 3.333333rem;
+                    width: @min-width;
+                    height: 4rem;
+                    background-color: black;
+                }
+            }
+        }
+        
+        .no_login{
+            width: 100%;
+            text-align: center;
+        }
+    }
+}

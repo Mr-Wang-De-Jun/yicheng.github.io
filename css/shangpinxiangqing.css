@@ -1,0 +1,299 @@
+@media screen and (max-width: 768px) {
+  .main {
+    width: 100%;
+    margin: 0 auto;
+  }
+  .main .lunbo {
+    position: relative;
+    width: 100%;
+    height: 13.333333rem;
+    background: url(../images/1.gif);
+    background-size: 100% 100%;
+  }
+  .main .lunbo ul {
+    position: absolute;
+    bottom: 0.533333rem;
+    left: 50%;
+  }
+  .main .lunbo ul li {
+    float: left;
+    width: 10px;
+    height: 10px;
+    background-color: rgba(0, 0, 0, 0.3);
+    border-radius: 10px;
+    margin-left: 10px;
+  }
+  .main .lunbo ul .li_checked {
+    background-color: red;
+  }
+  .main .price_introduction {
+    width: 100%;
+  }
+  .main .price_introduction .price {
+    color: red;
+    font-size: 1.066667rem;
+    margin-left: 0.4rem;
+  }
+  .main .price_introduction .introduction {
+    display: flex;
+    width: 100%;
+    margin-top: 1.066667rem;
+    padding-bottom: 0.933333rem;
+    border-bottom: 1px solid #ccc;
+  }
+  .main .price_introduction .introduction .introduction_left {
+    flex: 9;
+    font-size: 0.933333rem;
+    text-indent: 1em;
+  }
+  .main .price_introduction .introduction .introduction_right {
+    flex: 1;
+    text-align: center;
+  }
+  .main .price_introduction .introduction .introduction_right span {
+    display: block;
+  }
+  .main .image_particulars {
+    width: 100%;
+  }
+  .main .image_particulars p {
+    width: 100%;
+    font-size: 1.066667rem;
+    color: red;
+    margin: 1.066667rem 0;
+  }
+  .footer {
+    width: 100%;
+    height: 3.2rem;
+    margin: 0 auto;
+  }
+  .footer .footer_content {
+    position: fixed;
+    display: flex;
+    bottom: 0;
+    width: 100%;
+    height: 3.2rem;
+    border-top: 1px solid #ccc;
+    background-color: #fff;
+  }
+  .footer .footer_content a:nth-child(-n+3) {
+    flex: 1;
+    text-align: center;
+    line-height: 1.333333rem;
+    padding-top: 0.266667rem;
+  }
+  .footer .footer_content a:nth-child(-n+3) span {
+    display: block;
+    color: black;
+  }
+  .footer .footer_content a:nth-child(n+4) {
+    flex: 2;
+    text-align: center;
+    line-height: 3.2rem;
+    color: #fff;
+  }
+  .footer .footer_content a:nth-child(4) {
+    background-color: #f2a93b;
+  }
+  .footer .footer_content a:nth-child(5) {
+    background-color: #d95155;
+  }
+}
+@media screen and (min-width: 768px) and (max-width: 1190px) {
+  .main {
+    width: 768px;
+    margin: 0 auto;
+  }
+  .main .lunbo {
+    position: relative;
+    width: 100%;
+    height: 26.666667rem;
+    background: url(../images/1.gif);
+    background-size: 100% 100%;
+  }
+  .main .lunbo ul {
+    position: absolute;
+    bottom: 0.533333rem;
+    left: 50%;
+  }
+  .main .lunbo ul li {
+    float: left;
+    width: 10px;
+    height: 10px;
+    background-color: rgba(0, 0, 0, 0.3);
+    border-radius: 10px;
+    margin-left: 10px;
+  }
+  .main .lunbo ul .li_checked {
+    background-color: red;
+  }
+  .main .price_introduction {
+    width: 768px;
+  }
+  .main .price_introduction .price {
+    color: red;
+    font-size: 1.466667rem;
+  }
+  .main .price_introduction .introduction {
+    display: flex;
+    width: 768px;
+    margin-top: 1.066667rem;
+    padding-bottom: 0.933333rem;
+    border-bottom: 1px solid #ccc;
+  }
+  .main .price_introduction .introduction .introduction_left {
+    flex: 9;
+    font-size: 0.933333rem;
+  }
+  .main .price_introduction .introduction .introduction_right {
+    flex: 1;
+    text-align: center;
+  }
+  .main .price_introduction .introduction .introduction_right span {
+    display: block;
+  }
+  .main .image_particulars {
+    width: 768px;
+  }
+  .main .image_particulars p {
+    width: 100%;
+    font-size: 1.466667rem;
+    color: red;
+    margin: 1.066667rem 0;
+  }
+  .footer {
+    width: 768px;
+    height: 3.2rem;
+    margin: 0 auto;
+  }
+  .footer .footer_content {
+    position: fixed;
+    display: flex;
+    bottom: 0;
+    width: 768px;
+    height: 3.2rem;
+    border-top: 1px solid #ccc;
+    background-color: #fff;
+  }
+  .footer .footer_content a:nth-child(-n+3) {
+    flex: 1;
+    text-align: center;
+    line-height: 1.333333rem;
+    padding-top: 0.266667rem;
+  }
+  .footer .footer_content a:nth-child(-n+3) span {
+    display: block;
+    color: black;
+  }
+  .footer .footer_content a:nth-child(n+4) {
+    flex: 2;
+    text-align: center;
+    line-height: 3.2rem;
+    color: #fff;
+  }
+  .footer .footer_content a:nth-child(4) {
+    background-color: #f2a93b;
+  }
+  .footer .footer_content a:nth-child(5) {
+    background-color: #d95155;
+  }
+}
+@media screen and (min-width: 1190px) {
+  .main {
+    width: 1190px;
+    margin: 0 auto;
+  }
+  .main .lunbo {
+    position: relative;
+    width: 100%;
+    height: 26.666667rem;
+    background: url(../images/1.gif);
+    background-size: 100% 100%;
+  }
+  .main .lunbo ul {
+    position: absolute;
+    bottom: 0.533333rem;
+    left: 50%;
+  }
+  .main .lunbo ul li {
+    float: left;
+    width: 10px;
+    height: 10px;
+    background-color: rgba(0, 0, 0, 0.3);
+    border-radius: 10px;
+    margin-left: 10px;
+  }
+  .main .lunbo ul .li_checked {
+    background-color: red;
+  }
+  .main .price_introduction {
+    width: 1190px;
+  }
+  .main .price_introduction .price {
+    color: red;
+    font-size: 1.466667rem;
+  }
+  .main .price_introduction .introduction {
+    display: flex;
+    width: 1190px;
+    margin-top: 1.066667rem;
+    padding-bottom: 0.933333rem;
+    border-bottom: 1px solid #ccc;
+  }
+  .main .price_introduction .introduction .introduction_left {
+    flex: 9;
+    font-size: 0.933333rem;
+  }
+  .main .price_introduction .introduction .introduction_right {
+    flex: 1;
+    text-align: center;
+  }
+  .main .price_introduction .introduction .introduction_right span {
+    display: block;
+  }
+  .main .image_particulars {
+    width: 1190px;
+  }
+  .main .image_particulars p {
+    width: 100%;
+    font-size: 1.466667rem;
+    color: red;
+    margin: 1.066667rem 0;
+  }
+  .footer {
+    width: 1190px;
+    height: 3.2rem;
+    margin: 0 auto;
+  }
+  .footer .footer_content {
+    position: fixed;
+    display: flex;
+    bottom: 0;
+    width: 1190px;
+    height: 3.2rem;
+    border-top: 1px solid #ccc;
+    background-color: #fff;
+  }
+  .footer .footer_content a:nth-child(-n+3) {
+    flex: 1;
+    text-align: center;
+    line-height: 1.333333rem;
+    padding-top: 0.266667rem;
+  }
+  .footer .footer_content a:nth-child(-n+3) span {
+    display: block;
+    color: black;
+  }
+  .footer .footer_content a:nth-child(n+4) {
+    flex: 2;
+    text-align: center;
+    line-height: 3.2rem;
+    color: #fff;
+  }
+  .footer .footer_content a:nth-child(4) {
+    background-color: #f2a93b;
+  }
+  .footer .footer_content a:nth-child(5) {
+    background-color: #d95155;
+  }
+}

@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>宜城购物</title>
+    <link rel="icon" type="image" href="./宜城购物.ico">
+    <link rel="stylesheet" href="./css/base.css">
+    <link rel="stylesheet" href="./font/iconfont.css">
+    <link rel="stylesheet" href="./css/header_base.css">
+    <link rel="stylesheet" href="./css/personage.css">
+    <link rel="stylesheet" href="./css/footer_base.css">
+</head>
+
+<body>
+    <!-- 头部区域start -->
+    <header class="header">
+        <div class="header_fixed">
+            <span class="header_title">个人中心</span>
+            <!-- <label><span class="iconfont icon-sousuo2"></span><input type="text" placeholder="搜索"></label> -->
+        </div>
+    </header>
+    <!-- 头部区域end -->
+
+    <!-- 主体内容start -->
+    <main class="main">
+
+        <div class="yes_login">
+            <div class="user_img">
+                <img class="img_blur" src="./images/2.jpg" alt="模糊背景头像">
+                <img class="img_focus" src="./images/2.jpg" alt="头像">
+                <p>侄</p>
+            </div>
+
+            <div class="user_store">
+                <label>
+                    <span>0</span>
+                    <span>收藏的店铺</span>
+                </label>
+                <label>
+                    <span>0</span>
+                    <span>收藏的商品</span>
+                </label>
+                <label>
+                    <span>0</span>
+                    <span>关注的商品</span>
+                </label>
+                <label>
+                    <span>0</span>
+                    <span>我的足迹</span>
+                </label>
+            </div>
+
+            <div class="user_order">
+                <div class="user_order_top">
+                    <p>我的订单</p>
+                </div>
+                <div class="user_order_bottom">
+                    <label>
+                        <span class="iconfont icon-quanbudingdan"></span>
+                        <span>全部订单</span>
+                    </label>
+                    <label>
+                        <span class="iconfont icon-daifukuan"></span>
+                        <span>待付款</span>
+                    </label>
+                    <label>
+                        <span class="iconfont icon-gerenzhongxindingdandaishouhuo"></span>
+                        <span>待收货</span>
+                    </label>
+                    <label>
+                        <span class="iconfont icon-icon"></span>
+                        <span>退款/退货</span>
+                    </label>
+                </div>
+            </div>
+
+            <div class="addres">
+                收货地址管理
+            </div>
+
+            <div class="user_service">
+                <p>联系客服 <span>400-618-4000</span></p>
+                <p>意见反馈</p>
+                <p>关于我们</p>
+            </div>
+
+            <div class="user_push">
+                把我推送给身边的人
+            </div>
+        </div>
+
+        <form class="no_login">
+            <label class="yonghu">
+                <span class="iconfont icon-tubiao-"></span>
+                <input type="text" placeholder="请输入昵称">
+                <em>用户名不能为空</em>
+            </label>
+            <label class="mima">
+                <span class="iconfont icon-mobile"></span>
+                <input type="password" placeholder="请输入密码">
+                <em>最少六位</em>
+            </label>
+            <label class="querenmima">
+                <span class="iconfont icon-mima1"></span>
+                <input type="password" placeholder="再次确认密码">
+                <em>两次密码不一致</em>
+            </label>
+            <label class="phone">
+                <span class="iconfont icon-shoujihao1"></span>
+                <input type="text" maxlength="11" oninput="value=value.replace(/[^0-9.]/g,'')" placeholder="请输入手机号">
+                <em>手机号码错误</em>
+            </label>
+            <label class="yanzhengma">
+                <span class="iconfont icon-yanzhengma2"></span>
+                <input type="text" oninput="value=value.replace(/[^0-9.]/g,'')" placeholder="请输入验证码">
+                <span class="item_right">获取验证码</span>
+                <i></i>
+            </label>
+            <div class="login_regiest">
+                <button class="regiest">注册</button>
+                <button class="login">登录</button>
+            </div>
+        </form>
+    </main>
+    <!-- 主体内容end -->
+
+    <!-- 底部导航区域start -->
+    <footer class="footer">
+        <ul class="footer_ul">
+            <li>
+                <a href="./index.html">
+                    <span class="iconfont icon-shouye"></span>
+                    <span>首页</span>
+                </a>
+            </li>
+            <li>
+                <a href="./classify.html">
+                    <span class="iconfont icon-leimupinleifenleileibie"></span>
+                    <span>分类</span>
+                </a>
+            </li>
+            <li>
+                <a href="./shoppingCart.html">
+                    <span class="iconfont icon-gouwuche2"></span>
+                    <span>购物车</span>
+                </a>
+            </li>
+            <li>
+                <a href="./personage.html" style="color: red;">
+                    <span class="iconfont icon-tubiao-"></span>
+                    <span>我的</span>
+                </a>
+            </li>
+        </ul>
+    </footer>
+    <!-- 底部导航区域end -->
+    <script src="./js/cookie.js"></script>
+    <script src="./js/jquery.2.0.0.min.js"></script>
+    <script src="./js/personage.js"></script>
+</body>
+
+</html>

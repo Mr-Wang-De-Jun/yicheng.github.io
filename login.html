@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>宜城购物</title>
+    <link rel="icon" type="image" href="./宜城购物.ico">
+    <link rel="stylesheet" href="./css/base.css">
+    <link rel="stylesheet" href="./font/iconfont.css">
+    <link rel="stylesheet" href="./css/header_base.css">
+    <link rel="stylesheet" href="./css/login.css">
+    <!-- <link rel="stylesheet" href="./css/personage.css"> -->
+    <link rel="stylesheet" href="./css/footer_base.css">
+</head>
+
+<body>
+
+    <!-- 头部区域start -->
+    <header class="header">
+        <div class="header_fixed">
+            <a href="./personage.html" class="iconfont icon-zuojiantou"></a>
+            <span class="header_title">登录</span>
+            <!-- <label><span class="iconfont icon-sousuo2"></span><input type="text" placeholder="搜索"></label> -->
+        </div>
+    </header>
+    <!-- 头部区域end -->
+
+    <!-- 主体内容start -->
+    <main class="main">
+        <form class="no_login">
+            <label class="login_phone">
+                <span class="iconfont icon-shoujihao1"></span>
+                <input type="text" maxlength="11" oninput="value=value.replace(/[^0-9.]/g,'')" placeholder="请输入手机号">
+            </label>
+            <label class="login_passWord">
+                <span class="iconfont icon-mima1"></span>
+                <input type="password" placeholder="请输入密码">
+            </label>
+            <button class="login_show">登录</button>
+        </form>
+    </main>
+    <!-- 主体内容end -->
+
+    <!-- 底部导航区域start -->
+    <footer class="footer">
+        <ul class="footer_ul">
+            <li>
+                <a href="./index.html">
+                    <span class="iconfont icon-shouye"></span>
+                    <span>首页</span>
+                </a>
+            </li>
+            <li>
+                <a href="./classify.html">
+                    <span class="iconfont icon-leimupinleifenleileibie"></span>
+                    <span>分类</span>
+                </a>
+            </li>
+            <li>
+                <a href="./shoppingCart.html">
+                    <span class="iconfont icon-gouwuche2"></span>
+                    <span>购物车</span>
+                </a>
+            </li>
+            <li>
+                <a href="./personage.html" style="color: red;">
+                    <span class="iconfont icon-tubiao-"></span>
+                    <span>我的</span>
+                </a>
+            </li>
+        </ul>
+    </footer>
+    <!-- 底部导航区域end -->
+
+    <script src="./js/cookie.js"></script>
+    <script src="./js/jquery.2.0.0.min.js"></script>
+    <script src="./js/login.js"></script>
+    <!-- <script src="./js/personage.js"></script> -->
+</body>
+
+</html>

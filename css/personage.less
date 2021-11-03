@@ -1,0 +1,433 @@
+// 小屏幕
+@media screen and (max-width: 768px) {
+    @min-width:280px;
+    @max-width: 768px;
+    html{
+        background-color: #edece8;
+    }
+    .main{
+        margin: 0 auto;
+        width: 100%;
+        margin-top: 5.333333rem;
+        // height: 26.666667rem;
+        .yes_login{
+            
+            // margin-top: 5.333333rem;
+            width: 100%;
+            .user_img{
+                position: relative;
+                width: 100%;
+                height: 18.666667rem;
+                box-shadow: 0px 0px 10px red inset;
+                // background: url(../images/2.jpg);
+                // background-size: 100% 100%;
+                // filter: blur(5px);
+                z-index: -1;
+                .img_blur{
+                    position: absolute;
+                    top: 0;
+                    width: 100%;
+                    height: 100%;
+                    filter: blur(5px);
+                    z-index: -1;
+                }
+                .img_focus{
+                    position: absolute;
+                    left: 50%;
+                    top: 30%;
+                    margin-left: -35px;
+                    width: 70px;
+                    height: 70px;
+                    border-radius: 70px;
+                }
+                p{
+                    position: absolute;
+                    top: 60%;
+                    left: 50%;
+                    width: 120px;
+                    margin-left: -60px;
+                    text-align: center;
+                    color: #fff;
+                }
+            }
+
+            .user_store{
+                display: flex;
+                width: 90%;
+                height: 3.2rem;
+                background-color: #fff;
+                margin: 0 auto;
+                margin-top: -1.6rem;
+                padding-top: .266667rem;
+                #all_label()
+            }
+
+            .user_order{
+                width: 90%;
+                margin: 0 auto;
+                background-color: #fff;
+                margin-top: .8rem;
+                .user_order_top{
+                    width: 90%;
+                    height: 2.666667rem;
+                    padding-left: .8rem;
+                    // text-align: center;
+                    line-height: 2.666667rem;
+                    color: #666;
+                }
+                .user_order_bottom{
+                    display: flex;
+                    width: 100%;
+                    height: 3.2rem;
+                    border-top: 1px solid #eee;
+                    padding-top: .8rem;
+                    #all_label()
+                }
+            }
+
+            // 公共样式封装
+            #all_label(){
+                label{
+                    flex: 1;
+                    text-align: center;
+                    & span:first-child{
+                        color: red;
+                    }
+                    span{
+                        width: 100%;
+                        height: 30%;
+                        display: block;
+                        align-items: center;
+                    }
+                    & span:last-child{
+                        color: #666;
+                    }
+                }
+            }
+
+            .addres{
+                width: 90%;
+                height: 2.666667rem;
+                margin: 0 auto;
+                color: #666;
+                background-color: #fff;
+                margin-top: .8rem;
+                line-height: 2.666667rem;
+                text-indent: 1em;
+            }
+
+            .user_service{
+                width: 90%;
+                margin: 0 auto;
+                background-color: #fff;
+                margin-top: .8rem;
+                // margin-bottom: 1.6rem;
+                color: #666;
+                p{
+                    width: 100%;
+                    height: 2.666667rem;
+                    text-indent: 1em;
+                    line-height: 2.666667rem;
+                }
+            }
+
+            .user_push{
+                width: 90%;
+                height: 2.666667rem;
+                margin: 0 auto;
+                color: #666;
+                background-color: #fff;
+                margin-top: .8rem;
+                line-height: 2.666667rem;
+                text-indent: 1em;
+                margin-bottom: 1.6rem;
+            }
+
+        }
+        form{
+            margin-top: 5.333333rem;
+            width: 90%;
+            // background-color: blue;
+            margin: 0 auto;
+            label{
+                position: relative;
+                display: block;
+                width: 100%;
+                height: 2.666667rem;
+                // background-color: brown;
+                // margin: .266667rem 0;
+                margin-top: .266667rem;
+                margin-bottom: .533333rem;
+                line-height: 2.666667rem;
+                // padding-left: .4rem;
+                border: 1px solid #ccc;
+                border-radius: .266667rem;
+                padding: .266667rem;
+                input{
+                    height: 100%;
+                }
+                span{
+                    margin-right: .266667rem;
+                }
+                .item_right{
+                    float: right;
+                }
+                em{
+                    font-size: .666667rem;
+                    color: red;
+                    opacity: 0;
+                }
+            }
+
+            .yanzhengma i{
+                position: absolute;
+                left: 0;
+                bottom: -2.133333rem;
+            }
+
+            .login_regiest{
+                display: flex;
+                & button:nth-child(1){
+                    margin-right: .4rem;
+                }
+                & button:nth-child(2){
+                    margin-right: -0.4rem;
+                }
+                button{
+                    flex: 1;
+                    // width: 40%;
+                    height: 3.2rem;
+                    // margin: 0 auto;
+                    // margin-left: 6.933333rem;
+                    margin-top: 1.066667rem;
+                    background-color: brown;
+                    color: #fff;
+                    border-radius: .4rem;
+                    font-size: 1.066667rem;
+                }
+            }
+        }
+    }
+}
+// 中等屏幕
+@media screen and (min-width: 768px) and (max-width:1190px) {
+    @min-width:768px;
+    @max-width:1190px;
+    #changeScreen(@min-width,@max-width)
+}
+// 大屏幕
+@media screen and (min-width:1190px){
+    @min-width:1190px;
+    @max-width:1920px;
+    #changeScreen(@min-width,@max-width)
+}
+#changeScreen(@min-width,@max-width){
+    html{
+        background-color: #edece8;
+    }
+    .main{
+        margin: 0 auto;
+        width: @min-width;
+        // height: 26.666667rem;
+        // background-color: red;
+        // margin-top: 2.666667rem;
+        // margin-top: 50%;
+        margin-top: 5.333333rem;
+        .yes_login{
+            
+            // margin-top: 5.333333rem;
+            width: @min-width;
+            .user_img{
+                position: relative;
+                width: 100%;
+                height: 22.666667rem;
+                box-shadow: 0px 0px 10px red inset;
+                // background: url(../images/2.jpg);
+                // background-size: 100% 100%;
+                // filter: blur(5px);
+                z-index: -1;
+                .img_blur{
+                    position: absolute;
+                    top: 0;
+                    width: 100%;
+                    height: 100%;
+                    filter: blur(5px);
+                    z-index: -1;
+                }
+                .img_focus{
+                    position: absolute;
+                    left: 50%;
+                    top: 30%;
+                    margin-left: -35px;
+                    width: 70px;
+                    height: 70px;
+                    border-radius: 70px;
+                }
+                p{
+                    position: absolute;
+                    top: 60%;
+                    left: 50%;
+                    width: 120px;
+                    margin-left: -60px;
+                    text-align: center;
+                    color: #fff;
+                }
+            }
+
+            .user_store{
+                display: flex;
+                width: 90%;
+                height: 3.2rem;
+                background-color: #fff;
+                margin: 0 auto;
+                margin-top: -1.6rem;
+                padding-top: .266667rem;
+                #all_label()
+            }
+
+            .user_order{
+                width: 90%;
+                margin: 0 auto;
+                background-color: #fff;
+                margin-top: .8rem;
+                .user_order_top{
+                    width: 90%;
+                    height: 2.666667rem;
+                    padding-left: .8rem;
+                    // text-align: center;
+                    line-height: 2.666667rem;
+                    color: #666;
+                }
+                .user_order_bottom{
+                    display: flex;
+                    width: 100%;
+                    height: 3.2rem;
+                    border-top: 1px solid #eee;
+                    padding-top: .8rem;
+                    #all_label()
+                }
+            }
+
+            // 公共样式封装
+            #all_label(){
+                label{
+                    flex: 1;
+                    text-align: center;
+                    & span:first-child{
+                        color: red;
+                    }
+                    span{
+                        width: 100%;
+                        height: 30%;
+                        display: block;
+                        align-items: center;
+                    }
+                    & span:last-child{
+                        color: #666;
+                    }
+                }
+            }
+
+            .addres{
+                width: 90%;
+                height: 2.666667rem;
+                margin: 0 auto;
+                color: #666;
+                background-color: #fff;
+                margin-top: .8rem;
+                line-height: 2.666667rem;
+                text-indent: 1em;
+            }
+
+            .user_service{
+                width: 90%;
+                margin: 0 auto;
+                background-color: #fff;
+                margin-top: .8rem;
+                // margin-bottom: 1.6rem;
+                color: #666;
+                p{
+                    width: 100%;
+                    height: 2.666667rem;
+                    text-indent: 1em;
+                    line-height: 2.666667rem;
+                }
+            }
+
+            .user_push{
+                width: 90%;
+                height: 2.666667rem;
+                margin: 0 auto;
+                color: #666;
+                background-color: #fff;
+                margin-top: .8rem;
+                line-height: 2.666667rem;
+                text-indent: 1em;
+                margin-bottom: 1.6rem;
+            }
+
+        }
+        form{
+            margin-top: 5.333333rem;
+            width: 50%;
+            // background-color: blue;
+            margin: 0 auto;
+            input{
+                width: 50%;
+                height: 100%;
+            }
+            label{
+                position: relative;
+                display: block;
+                width: 100%;
+                height: 2.666667rem;
+                // background-color: brown;
+                // margin: .266667rem 0;
+                margin-top: .266667rem;
+                margin-bottom: .533333rem;
+                line-height: 2.666667rem;
+                // padding-left: .4rem;
+                border: 1px solid #ccc;
+                border-radius: .266667rem;
+                padding: .266667rem;
+                span{
+                    margin-right: .266667rem;
+                }
+                .item_right{
+                    float: right;
+                }
+                em{
+                    font-size: .8rem;
+                    color: red;
+                    opacity: 0;
+                }
+            }
+            .yanzhengma i{
+                position: absolute;
+                left: 0;
+                bottom: -2.133333rem;
+            }
+            .login_regiest{
+                display: flex;
+                & button:nth-child(1){
+                    margin-right: .4rem;
+                }
+                & button:nth-child(2){
+                    margin-right: -0.4rem;
+                }
+                button{
+                    flex: 1;
+                    // width: 40%;
+                    height: 3.2rem;
+                    // margin: 0 auto;
+                    // margin-left: 6.933333rem;
+                    margin-top: 1.066667rem;
+                    background-color: brown;
+                    color: #fff;
+                    border-radius: .4rem;
+                    font-size: 1.066667rem;
+                }
+            }
+        }
+    }
+}

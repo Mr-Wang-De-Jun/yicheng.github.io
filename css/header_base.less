@@ -1,0 +1,113 @@
+// 小屏幕
+@media screen and (max-width:768px) {
+    @min-width:280px;
+    @max-width:768px;
+    .header{
+        width: 100%;
+        height: 2.666667rem;
+        margin: 0 auto;
+        .header_fixed{
+            position: fixed;
+            top: 0;
+            display: flex;
+            width: 100%;
+            height: 2.666667rem;
+            background-color: #d95155;
+            align-items: center;
+            z-index: 10;
+            .icon-zuojiantou{
+                margin-left: .133333rem;
+                color: #fff;
+            }
+            .header_title{
+                display: inline-block;
+                width: 100%;
+                height: 100%;
+                flex: 1.5;
+                line-height: 2.666667rem;
+                text-align: center;
+                color: #fff;
+            }
+            label{
+                width: 100%;
+                height: 80%;
+                background-color: #fff;
+                flex: 4;
+                line-height: 2.133333rem;
+                border-radius: 20px;
+                padding: 0 10px;
+                margin: 0 15px;
+                input{
+                    width: 80%;
+                    height: 100%;
+                    margin-left: 5px;
+                }
+            }
+        }
+    }
+}
+// 中等屏幕
+@media screen and (min-width:768px) and (max-width:1190px) {
+    @min-width:768px;
+    @max-width:1190px;
+    #changeScreen(@min-width,@max-width)
+}
+// 大屏幕
+@media screen and (min-width:1190px){
+    @min-width:1190px;
+    @max-width:1920px;
+    #changeScreen(@min-width,@max-width)
+}
+#changeScreen(@min-width,@max-width){
+    // 头部样式
+    .header{
+        width: @min-width;
+        height: 2.666667rem;
+        margin: 0 auto;
+        .header_fixed{
+            position: fixed;
+            top: 0;
+            display: flex;
+            width: @min-width;
+            height: 2.666667rem;
+            background-color: #d95155;
+            align-items: center;
+            z-index: 10;
+            .icon-zuojiantou{
+                margin-left: .533333rem;
+                // display: block;
+                // flex: .5;
+                // width: .8rem;
+                // height: 100%;
+                // text-align: center;
+                // line-height: 2.666667rem;
+                color: #fff;
+            }
+            .header_title{
+                display: inline-block;
+                width: @min-width;
+                height: 100%;
+                flex: 1.5;
+                line-height: 2.666667rem;
+                text-align: center;
+                color: #fff;
+                // font-size: 13px;
+            }
+            label{
+                width: @min-width;
+                height: 80%;
+                background-color: #fff;
+                flex: 4;
+                line-height: 2.133333rem;
+                border-radius: 20px;
+                padding: 0 10px;
+                margin: 0 15px;
+                input{
+                    width: 80%;
+                    height: 100%;
+                    margin-left: 5px;
+                }
+            }
+        }
+    }
+}

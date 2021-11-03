@@ -1,0 +1,169 @@
+// 小屏幕
+@media screen and (max-width:768px) {
+    @min-width:280px;
+    @max-width:768px;
+    .main{
+        width: 100%;
+        // height: 400px;
+        display: flex;
+        margin: 0 auto;
+        .main_left{
+            width: 100%;
+            // height: 200px;
+            flex: 2;
+            // background-color: pink;
+            span{
+                display: block;
+                width: 100%;
+                height: 3.2rem;
+                border-bottom: 1px solid #ccc;
+                border-left: 3px solid transparent;
+                text-align: center;
+                line-height: 3.2rem;
+                background-color: rgba(0, 0, 0, .1);
+            }
+            .span_color{
+                color: red;
+                border-left: 3px solid red;
+            }
+        }
+        .main_right{
+            position: relative;
+            width: 100%;
+            height: 100%;
+            flex: 8;
+            .main_right_content{
+                width: 100%;
+                clear: both;
+                p{
+                    width: 100%;
+                    height: 2.666667rem;
+                    background-color: #eee;
+                    text-align: center;
+                    line-height: 2.666667rem;
+                }
+                .content_imgandtext{
+                    top: 2.666667rem;
+                    width: 100%;
+                    .main_ul{
+                        width: 100%;
+                        li{
+                            float: left;
+                            width: 33.3%;
+                            height: 6.933333rem;
+                            // background-color: seagreen;
+                            text-align: center;
+                            padding-bottom: 20px;
+                            a{
+                                display: block;
+                                margin: 0 auto;
+                                width: 80%;
+                                height: 100%;
+                                // background-color: sienna;
+                                img{
+                                    width: 60%;
+                                    height: 80%;
+                                }
+                                span{
+                                    display: block;
+                                    width: 100%;
+                                    text-align: center;
+                                    
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+// 中等屏幕
+@media screen and (min-width:768px) and (max-width:1190px) {
+    @min-width:768px;
+    @max-width:1190px;
+    #changeScreen(@min-width,@max-width)
+}
+// 大屏幕
+@media screen and (min-width:1190px){
+    @min-width:1190px;
+    @max-width:1920px;
+    #changeScreen(@min-width,@max-width)
+}
+#changeScreen(@min-width,@max-width){
+    .main{
+        width: @min-width;
+        // height: 400px;
+        display: flex;
+        margin: 0 auto;
+        .main_left{
+            width: 100%;
+            // height: 200px;
+            flex: 2;
+            // background-color: pink;
+            span{
+                display: block;
+                width: 100%;
+                height: 3.2rem;
+                border-bottom: 1px solid #ccc;
+                border-left: 3px solid transparent;
+                text-align: center;
+                line-height: 3.2rem;
+                background-color: rgba(0, 0, 0, .1);
+            }
+            .span_color{
+                color: red;
+                border-left: 3px solid red;
+            }
+        }
+        .main_right{
+            position: relative;
+            width: 100%;
+            height: 100%;
+            flex: 8;
+            .main_right_content{
+                width: 100%;
+                clear: both;
+                p{
+                    width: 100%;
+                    height: 2.666667rem;
+                    background-color: #eee;
+                    text-align: center;
+                    line-height: 2.666667rem;
+                }
+                .content_imgandtext{
+                    top: 2.666667rem;
+                    width: 100%;
+                    .main_ul{
+                        width: 100%;
+                        li{
+                            float: left;
+                            width: 33.3%;
+                            height: 6.933333rem;
+                            // background-color: seagreen;
+                            text-align: center;
+                            padding-bottom: 20px;
+                            a{
+                                display: block;
+                                margin: 0 auto;
+                                width: 80%;
+                                height: 100%;
+                                // background-color: sienna;
+                                img{
+                                    width: 60%;
+                                    height: 80%;
+                                }
+                                span{
+                                    display: block;
+                                    width: 100%;
+                                    text-align: center;
+                                    
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

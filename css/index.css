@@ -1,0 +1,274 @@
+@media screen and (max-width: 768px) {
+  .lunbo {
+    position: relative;
+    width: 100%;
+    height: 10.666667rem;
+    background: url(https://api-hmugo-web.itheima.net/pyg/banner1.png);
+    background-size: 100% 100%;
+    margin: 0 auto;
+  }
+  .lunbo ul {
+    position: absolute;
+    bottom: 8px;
+    left: 50%;
+    width: 5.333333rem;
+    margin-left: -35px;
+  }
+  .lunbo ul li {
+    float: left;
+    margin-right: 10px;
+    width: 10px;
+    height: 10px;
+    border-radius: 10px;
+    background-color: rgba(0, 0, 0, 0.5);
+  }
+  .lunbo ul .li_checked {
+    background-color: #df4f3f;
+  }
+  .nav {
+    width: 100%;
+    height: 3.733333rem;
+    margin: 0 auto;
+    padding: 0.266667rem 0;
+  }
+  .nav .nav_ul {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    text-align: center;
+  }
+  .nav .nav_ul li {
+    flex: 1;
+    width: 100%;
+    height: 100%;
+  }
+  .nav .nav_ul li a {
+    display: block;
+    width: 55%;
+    height: 100%;
+    background: black;
+    margin: 0 auto;
+  }
+  .main {
+    width: 100%;
+    height: 18.666667rem;
+    margin: 0 auto;
+    margin-top: 1.266667rem;
+  }
+  .main .main_item {
+    width: 100%;
+    height: 100%;
+    margin-top: 20px;
+  }
+  .main .main_item .img_title {
+    display: block;
+    width: 100%;
+    height: 2.666667rem;
+    background-color: blue;
+  }
+  .main .main_item .img_content {
+    width: 100%;
+    height: 16rem;
+  }
+  .main .main_item .img_content a {
+    display: block;
+    float: left;
+    width: 26%;
+    height: 50%;
+    border-radius: 5px;
+    margin-left: 0.266667rem;
+    margin-top: 5px;
+  }
+  .main .main_item .img_content a:first-child {
+    margin-left: 0;
+    margin-top: 0.4rem;
+    width: 44%;
+    height: 100%;
+  }
+  .main .main_item:first-child {
+    margin-top: -10px;
+  }
+}
+@media screen and (min-width: 768px) and (max-width: 1190px) {
+  .lunbo {
+    position: relative;
+    width: 768px;
+    height: 16rem;
+    background: url(https://api-hmugo-web.itheima.net/pyg/banner1.png);
+    background-size: 100% 100%;
+    margin: 0 auto;
+  }
+  .lunbo ul {
+    position: absolute;
+    bottom: 8px;
+    left: 50%;
+    margin-left: -35px;
+    width: 5.333333rem;
+  }
+  .lunbo ul li {
+    float: left;
+    margin-right: 10px;
+    width: 10px;
+    height: 10px;
+    border-radius: 10px;
+    background-color: rgba(0, 0, 0, 0.5);
+  }
+  .lunbo ul .li_checked {
+    background-color: #df4f3f;
+  }
+  .nav {
+    width: 768px;
+    height: 9.066667rem;
+    margin: 0 auto;
+    padding: 0.266667rem 0;
+  }
+  .nav .nav_ul {
+    width: 768px;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    text-align: center;
+  }
+  .nav .nav_ul li {
+    flex: 1;
+    width: 100%;
+    height: 60%;
+  }
+  .nav .nav_ul li a {
+    display: block;
+    width: 50%;
+    height: 100%;
+    background: black;
+    margin: 0 auto;
+  }
+  .main {
+    width: 768px;
+    height: 21.333333rem;
+    margin: 0 auto;
+    margin-top: 1.266667rem;
+  }
+  .main .main_item {
+    width: 768px;
+    height: 100%;
+    margin-top: 1.8rem;
+  }
+  .main .main_item .img_title {
+    display: block;
+    width: 90%;
+    margin: 0 auto;
+    height: 4rem;
+    background-color: blue;
+  }
+  .main .main_item .img_content {
+    width: 100%;
+    height: 17.333333rem;
+  }
+  .main .main_item .img_content a {
+    display: block;
+    float: left;
+    width: 20%;
+    height: 50%;
+    margin-left: 6%;
+    margin-top: 5px;
+    border-radius: 5px;
+  }
+  .main .main_item .img_content a:first-child {
+    width: 33.3%;
+    height: 100%;
+  }
+  .main .main_item:first-child {
+    margin-top: -30px;
+  }
+}
+@media screen and (min-width: 1190px) {
+  .lunbo {
+    position: relative;
+    width: 1190px;
+    height: 16rem;
+    background: url(https://api-hmugo-web.itheima.net/pyg/banner1.png);
+    background-size: 100% 100%;
+    margin: 0 auto;
+  }
+  .lunbo ul {
+    position: absolute;
+    bottom: 8px;
+    left: 50%;
+    margin-left: -35px;
+    width: 5.333333rem;
+  }
+  .lunbo ul li {
+    float: left;
+    margin-right: 10px;
+    width: 10px;
+    height: 10px;
+    border-radius: 10px;
+    background-color: rgba(0, 0, 0, 0.5);
+  }
+  .lunbo ul .li_checked {
+    background-color: #df4f3f;
+  }
+  .nav {
+    width: 1190px;
+    height: 9.066667rem;
+    margin: 0 auto;
+    padding: 0.266667rem 0;
+  }
+  .nav .nav_ul {
+    width: 1190px;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    text-align: center;
+  }
+  .nav .nav_ul li {
+    flex: 1;
+    width: 100%;
+    height: 60%;
+  }
+  .nav .nav_ul li a {
+    display: block;
+    width: 50%;
+    height: 100%;
+    background: black;
+    margin: 0 auto;
+  }
+  .main {
+    width: 1190px;
+    height: 21.333333rem;
+    margin: 0 auto;
+    margin-top: 1.266667rem;
+  }
+  .main .main_item {
+    width: 1190px;
+    height: 100%;
+    margin-top: 1.8rem;
+  }
+  .main .main_item .img_title {
+    display: block;
+    width: 90%;
+    margin: 0 auto;
+    height: 4rem;
+    background-color: blue;
+  }
+  .main .main_item .img_content {
+    width: 100%;
+    height: 17.333333rem;
+  }
+  .main .main_item .img_content a {
+    display: block;
+    float: left;
+    width: 20%;
+    height: 50%;
+    margin-left: 6%;
+    margin-top: 5px;
+    border-radius: 5px;
+  }
+  .main .main_item .img_content a:first-child {
+    width: 33.3%;
+    height: 100%;
+  }
+  .main .main_item:first-child {
+    margin-top: -30px;
+  }
+}

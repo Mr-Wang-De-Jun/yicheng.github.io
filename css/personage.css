@@ -1,0 +1,587 @@
+@media screen and (max-width: 768px) {
+  html {
+    background-color: #edece8;
+  }
+  .main {
+    margin: 0 auto;
+    width: 100%;
+    margin-top: 5.333333rem;
+  }
+  .main .yes_login {
+    width: 100%;
+  }
+  .main .yes_login .user_img {
+    position: relative;
+    width: 100%;
+    height: 18.666667rem;
+    box-shadow: 0px 0px 10px red inset;
+    z-index: -1;
+  }
+  .main .yes_login .user_img .img_blur {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    filter: blur(5px);
+    z-index: -1;
+  }
+  .main .yes_login .user_img .img_focus {
+    position: absolute;
+    left: 50%;
+    top: 30%;
+    margin-left: -35px;
+    width: 70px;
+    height: 70px;
+    border-radius: 70px;
+  }
+  .main .yes_login .user_img p {
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    width: 120px;
+    margin-left: -60px;
+    text-align: center;
+    color: #fff;
+  }
+  .main .yes_login .user_store {
+    display: flex;
+    width: 90%;
+    height: 3.2rem;
+    background-color: #fff;
+    margin: 0 auto;
+    margin-top: -1.6rem;
+    padding-top: 0.266667rem;
+  }
+  .main .yes_login .user_store label {
+    flex: 1;
+    text-align: center;
+  }
+  .main .yes_login .user_store label span:first-child {
+    color: red;
+  }
+  .main .yes_login .user_store label span {
+    width: 100%;
+    height: 30%;
+    display: block;
+    align-items: center;
+  }
+  .main .yes_login .user_store label span:last-child {
+    color: #666;
+  }
+  .main .yes_login .user_order {
+    width: 90%;
+    margin: 0 auto;
+    background-color: #fff;
+    margin-top: 0.8rem;
+  }
+  .main .yes_login .user_order .user_order_top {
+    width: 90%;
+    height: 2.666667rem;
+    padding-left: 0.8rem;
+    line-height: 2.666667rem;
+    color: #666;
+  }
+  .main .yes_login .user_order .user_order_bottom {
+    display: flex;
+    width: 100%;
+    height: 3.2rem;
+    border-top: 1px solid #eee;
+    padding-top: 0.8rem;
+  }
+  .main .yes_login .user_order .user_order_bottom label {
+    flex: 1;
+    text-align: center;
+  }
+  .main .yes_login .user_order .user_order_bottom label span:first-child {
+    color: red;
+  }
+  .main .yes_login .user_order .user_order_bottom label span {
+    width: 100%;
+    height: 30%;
+    display: block;
+    align-items: center;
+  }
+  .main .yes_login .user_order .user_order_bottom label span:last-child {
+    color: #666;
+  }
+  .main .yes_login .addres {
+    width: 90%;
+    height: 2.666667rem;
+    margin: 0 auto;
+    color: #666;
+    background-color: #fff;
+    margin-top: 0.8rem;
+    line-height: 2.666667rem;
+    text-indent: 1em;
+  }
+  .main .yes_login .user_service {
+    width: 90%;
+    margin: 0 auto;
+    background-color: #fff;
+    margin-top: 0.8rem;
+    color: #666;
+  }
+  .main .yes_login .user_service p {
+    width: 100%;
+    height: 2.666667rem;
+    text-indent: 1em;
+    line-height: 2.666667rem;
+  }
+  .main .yes_login .user_push {
+    width: 90%;
+    height: 2.666667rem;
+    margin: 0 auto;
+    color: #666;
+    background-color: #fff;
+    margin-top: 0.8rem;
+    line-height: 2.666667rem;
+    text-indent: 1em;
+    margin-bottom: 1.6rem;
+  }
+  .main form {
+    margin-top: 5.333333rem;
+    width: 90%;
+    margin: 0 auto;
+  }
+  .main form label {
+    position: relative;
+    display: block;
+    width: 100%;
+    height: 2.666667rem;
+    margin-top: 0.266667rem;
+    margin-bottom: 0.533333rem;
+    line-height: 2.666667rem;
+    border: 1px solid #ccc;
+    border-radius: 0.266667rem;
+    padding: 0.266667rem;
+  }
+  .main form label input {
+    height: 100%;
+  }
+  .main form label span {
+    margin-right: 0.266667rem;
+  }
+  .main form label .item_right {
+    float: right;
+  }
+  .main form label em {
+    font-size: 0.666667rem;
+    color: red;
+    opacity: 0;
+  }
+  .main form .yanzhengma i {
+    position: absolute;
+    left: 0;
+    bottom: -2.133333rem;
+  }
+  .main form .login_regiest {
+    display: flex;
+  }
+  .main form .login_regiest button:nth-child(1) {
+    margin-right: 0.4rem;
+  }
+  .main form .login_regiest button:nth-child(2) {
+    margin-right: -0.4rem;
+  }
+  .main form .login_regiest button {
+    flex: 1;
+    height: 3.2rem;
+    margin-top: 1.066667rem;
+    background-color: brown;
+    color: #fff;
+    border-radius: 0.4rem;
+    font-size: 1.066667rem;
+  }
+}
+@media screen and (min-width: 768px) and (max-width: 1190px) {
+  html {
+    background-color: #edece8;
+  }
+  .main {
+    margin: 0 auto;
+    width: 768px;
+    margin-top: 5.333333rem;
+  }
+  .main .yes_login {
+    width: 768px;
+  }
+  .main .yes_login .user_img {
+    position: relative;
+    width: 100%;
+    height: 22.666667rem;
+    box-shadow: 0px 0px 10px red inset;
+    z-index: -1;
+  }
+  .main .yes_login .user_img .img_blur {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    filter: blur(5px);
+    z-index: -1;
+  }
+  .main .yes_login .user_img .img_focus {
+    position: absolute;
+    left: 50%;
+    top: 30%;
+    margin-left: -35px;
+    width: 70px;
+    height: 70px;
+    border-radius: 70px;
+  }
+  .main .yes_login .user_img p {
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    width: 120px;
+    margin-left: -60px;
+    text-align: center;
+    color: #fff;
+  }
+  .main .yes_login .user_store {
+    display: flex;
+    width: 90%;
+    height: 3.2rem;
+    background-color: #fff;
+    margin: 0 auto;
+    margin-top: -1.6rem;
+    padding-top: 0.266667rem;
+  }
+  .main .yes_login .user_store label {
+    flex: 1;
+    text-align: center;
+  }
+  .main .yes_login .user_store label span:first-child {
+    color: red;
+  }
+  .main .yes_login .user_store label span {
+    width: 100%;
+    height: 30%;
+    display: block;
+    align-items: center;
+  }
+  .main .yes_login .user_store label span:last-child {
+    color: #666;
+  }
+  .main .yes_login .user_order {
+    width: 90%;
+    margin: 0 auto;
+    background-color: #fff;
+    margin-top: 0.8rem;
+  }
+  .main .yes_login .user_order .user_order_top {
+    width: 90%;
+    height: 2.666667rem;
+    padding-left: 0.8rem;
+    line-height: 2.666667rem;
+    color: #666;
+  }
+  .main .yes_login .user_order .user_order_bottom {
+    display: flex;
+    width: 100%;
+    height: 3.2rem;
+    border-top: 1px solid #eee;
+    padding-top: 0.8rem;
+  }
+  .main .yes_login .user_order .user_order_bottom label {
+    flex: 1;
+    text-align: center;
+  }
+  .main .yes_login .user_order .user_order_bottom label span:first-child {
+    color: red;
+  }
+  .main .yes_login .user_order .user_order_bottom label span {
+    width: 100%;
+    height: 30%;
+    display: block;
+    align-items: center;
+  }
+  .main .yes_login .user_order .user_order_bottom label span:last-child {
+    color: #666;
+  }
+  .main .yes_login .addres {
+    width: 90%;
+    height: 2.666667rem;
+    margin: 0 auto;
+    color: #666;
+    background-color: #fff;
+    margin-top: 0.8rem;
+    line-height: 2.666667rem;
+    text-indent: 1em;
+  }
+  .main .yes_login .user_service {
+    width: 90%;
+    margin: 0 auto;
+    background-color: #fff;
+    margin-top: 0.8rem;
+    color: #666;
+  }
+  .main .yes_login .user_service p {
+    width: 100%;
+    height: 2.666667rem;
+    text-indent: 1em;
+    line-height: 2.666667rem;
+  }
+  .main .yes_login .user_push {
+    width: 90%;
+    height: 2.666667rem;
+    margin: 0 auto;
+    color: #666;
+    background-color: #fff;
+    margin-top: 0.8rem;
+    line-height: 2.666667rem;
+    text-indent: 1em;
+    margin-bottom: 1.6rem;
+  }
+  .main form {
+    margin-top: 5.333333rem;
+    width: 50%;
+    margin: 0 auto;
+  }
+  .main form input {
+    width: 50%;
+    height: 100%;
+  }
+  .main form label {
+    position: relative;
+    display: block;
+    width: 100%;
+    height: 2.666667rem;
+    margin-top: 0.266667rem;
+    margin-bottom: 0.533333rem;
+    line-height: 2.666667rem;
+    border: 1px solid #ccc;
+    border-radius: 0.266667rem;
+    padding: 0.266667rem;
+  }
+  .main form label span {
+    margin-right: 0.266667rem;
+  }
+  .main form label .item_right {
+    float: right;
+  }
+  .main form label em {
+    font-size: 0.8rem;
+    color: red;
+    opacity: 0;
+  }
+  .main form .yanzhengma i {
+    position: absolute;
+    left: 0;
+    bottom: -2.133333rem;
+  }
+  .main form .login_regiest {
+    display: flex;
+  }
+  .main form .login_regiest button:nth-child(1) {
+    margin-right: 0.4rem;
+  }
+  .main form .login_regiest button:nth-child(2) {
+    margin-right: -0.4rem;
+  }
+  .main form .login_regiest button {
+    flex: 1;
+    height: 3.2rem;
+    margin-top: 1.066667rem;
+    background-color: brown;
+    color: #fff;
+    border-radius: 0.4rem;
+    font-size: 1.066667rem;
+  }
+}
+@media screen and (min-width: 1190px) {
+  html {
+    background-color: #edece8;
+  }
+  .main {
+    margin: 0 auto;
+    width: 1190px;
+    margin-top: 5.333333rem;
+  }
+  .main .yes_login {
+    width: 1190px;
+  }
+  .main .yes_login .user_img {
+    position: relative;
+    width: 100%;
+    height: 22.666667rem;
+    box-shadow: 0px 0px 10px red inset;
+    z-index: -1;
+  }
+  .main .yes_login .user_img .img_blur {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    filter: blur(5px);
+    z-index: -1;
+  }
+  .main .yes_login .user_img .img_focus {
+    position: absolute;
+    left: 50%;
+    top: 30%;
+    margin-left: -35px;
+    width: 70px;
+    height: 70px;
+    border-radius: 70px;
+  }
+  .main .yes_login .user_img p {
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    width: 120px;
+    margin-left: -60px;
+    text-align: center;
+    color: #fff;
+  }
+  .main .yes_login .user_store {
+    display: flex;
+    width: 90%;
+    height: 3.2rem;
+    background-color: #fff;
+    margin: 0 auto;
+    margin-top: -1.6rem;
+    padding-top: 0.266667rem;
+  }
+  .main .yes_login .user_store label {
+    flex: 1;
+    text-align: center;
+  }
+  .main .yes_login .user_store label span:first-child {
+    color: red;
+  }
+  .main .yes_login .user_store label span {
+    width: 100%;
+    height: 30%;
+    display: block;
+    align-items: center;
+  }
+  .main .yes_login .user_store label span:last-child {
+    color: #666;
+  }
+  .main .yes_login .user_order {
+    width: 90%;
+    margin: 0 auto;
+    background-color: #fff;
+    margin-top: 0.8rem;
+  }
+  .main .yes_login .user_order .user_order_top {
+    width: 90%;
+    height: 2.666667rem;
+    padding-left: 0.8rem;
+    line-height: 2.666667rem;
+    color: #666;
+  }
+  .main .yes_login .user_order .user_order_bottom {
+    display: flex;
+    width: 100%;
+    height: 3.2rem;
+    border-top: 1px solid #eee;
+    padding-top: 0.8rem;
+  }
+  .main .yes_login .user_order .user_order_bottom label {
+    flex: 1;
+    text-align: center;
+  }
+  .main .yes_login .user_order .user_order_bottom label span:first-child {
+    color: red;
+  }
+  .main .yes_login .user_order .user_order_bottom label span {
+    width: 100%;
+    height: 30%;
+    display: block;
+    align-items: center;
+  }
+  .main .yes_login .user_order .user_order_bottom label span:last-child {
+    color: #666;
+  }
+  .main .yes_login .addres {
+    width: 90%;
+    height: 2.666667rem;
+    margin: 0 auto;
+    color: #666;
+    background-color: #fff;
+    margin-top: 0.8rem;
+    line-height: 2.666667rem;
+    text-indent: 1em;
+  }
+  .main .yes_login .user_service {
+    width: 90%;
+    margin: 0 auto;
+    background-color: #fff;
+    margin-top: 0.8rem;
+    color: #666;
+  }
+  .main .yes_login .user_service p {
+    width: 100%;
+    height: 2.666667rem;
+    text-indent: 1em;
+    line-height: 2.666667rem;
+  }
+  .main .yes_login .user_push {
+    width: 90%;
+    height: 2.666667rem;
+    margin: 0 auto;
+    color: #666;
+    background-color: #fff;
+    margin-top: 0.8rem;
+    line-height: 2.666667rem;
+    text-indent: 1em;
+    margin-bottom: 1.6rem;
+  }
+  .main form {
+    margin-top: 5.333333rem;
+    width: 50%;
+    margin: 0 auto;
+  }
+  .main form input {
+    width: 50%;
+    height: 100%;
+  }
+  .main form label {
+    position: relative;
+    display: block;
+    width: 100%;
+    height: 2.666667rem;
+    margin-top: 0.266667rem;
+    margin-bottom: 0.533333rem;
+    line-height: 2.666667rem;
+    border: 1px solid #ccc;
+    border-radius: 0.266667rem;
+    padding: 0.266667rem;
+  }
+  .main form label span {
+    margin-right: 0.266667rem;
+  }
+  .main form label .item_right {
+    float: right;
+  }
+  .main form label em {
+    font-size: 0.8rem;
+    color: red;
+    opacity: 0;
+  }
+  .main form .yanzhengma i {
+    position: absolute;
+    left: 0;
+    bottom: -2.133333rem;
+  }
+  .main form .login_regiest {
+    display: flex;
+  }
+  .main form .login_regiest button:nth-child(1) {
+    margin-right: 0.4rem;
+  }
+  .main form .login_regiest button:nth-child(2) {
+    margin-right: -0.4rem;
+  }
+  .main form .login_regiest button {
+    flex: 1;
+    height: 3.2rem;
+    margin-top: 1.066667rem;
+    background-color: brown;
+    color: #fff;
+    border-radius: 0.4rem;
+    font-size: 1.066667rem;
+  }
+}

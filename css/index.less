@@ -1,0 +1,217 @@
+// 小屏幕
+@media screen and (max-width:768px) {
+    @min-width:280px;
+    @max-width:768px;
+    .lunbo{
+        position: relative;
+        width: 100%;
+        height: 10.666667rem;
+        background: url(https://api-hmugo-web.itheima.net/pyg/banner1.png);
+        background-size: 100% 100%;
+        margin: 0 auto;
+        ul{
+            position: absolute;
+            bottom: 8px;
+            left: 50%;
+            width: 5.333333rem;
+            margin-left: -35px;
+            li{
+                float: left;
+                margin-right: 10px;
+                width: 10px;
+                height: 10px;
+                border-radius: 10px;
+                background-color: rgba(0, 0, 0, .5);
+            }
+            .li_checked{
+                background-color: rgb(223, 79, 63);
+            }
+        }
+    }
+    
+    .nav{
+        width: 100%;
+        height: 3.733333rem;
+        // background-color: #d95155;
+        margin: 0 auto;
+        padding: .266667rem 0;
+        .nav_ul{
+            width: 100%;
+            height: 100%;
+            display: flex;
+            align-items: center;
+            text-align: center;
+            li{
+                flex: 1;
+                width: 100%;
+                height: 100%;
+                a{
+                    display: block;
+                    width: 55%;
+                    height: 100%;
+                    background: black;
+                    margin: 0 auto;
+                }
+            }
+        }
+    }
+
+    .main{
+        width: 100%;
+        height: 18.666667rem;
+        // background-color: black;
+        margin: 0 auto;
+        margin-top: 1.266667rem;
+        .main_item{
+            width: 100%;
+            height: 100%;
+            margin-top: 20px;
+            .img_title{
+                display: block;
+                width: 100%;
+                height: 2.666667rem;
+                background-color: blue;
+                // background: url(https://api-hmugo-web.itheima.net/pyg/pic_floor01_title.png);
+                // background-size: 100% 100%;
+            }
+            .img_content{
+                width: 100%;
+                height: 16rem;
+                a{
+                    display: block;
+                    float: left;
+                    width: 26%;
+                    height: 50%;
+                    // background: url(https://api-hmugo-web.itheima.net/pyg/pic_floor01_1@2x.png);
+                    // background-size: 100% 100%;
+                    // margin-left: 6%;
+                    // margin-top: 5px;
+                    border-radius: 5px;
+                    margin-left: .266667rem;
+                    margin-top: 5px;
+                }
+                & a:first-child{
+                    margin-left: 0;
+                    margin-top: .4rem;
+                    width: 44%;
+                    height: 100%;
+                }
+            }
+        }
+        & .main_item:first-child{
+            margin-top: -10px;
+        }
+    }
+}
+// 中等屏幕
+@media screen and (min-width:768px) and (max-width:1190px) {
+    @min-width:768px;
+    @max-width:1190px;
+    #changeScreen(@min-width,@max-width)
+}
+// 大屏幕
+@media screen and (min-width:1190px){
+    @min-width:1190px;
+    @max-width:1920px;
+    #changeScreen(@min-width,@max-width)
+}
+
+#changeScreen(@min-width,@max-width){
+
+    // 轮播图样式
+    .lunbo{
+        position: relative;
+        width: @min-width;
+        height: 16rem;
+        background: url(https://api-hmugo-web.itheima.net/pyg/banner1.png);
+        background-size: 100% 100%;
+        margin: 0 auto;
+        ul{
+            position: absolute;
+            bottom: 8px;
+            left: 50%;
+            margin-left: -35px;
+            width: 5.333333rem;
+            li{
+                float: left;
+                margin-right: 10px;
+                width: 10px;
+                height: 10px;
+                border-radius: 10px;
+                background-color: rgba(0, 0, 0, .5);
+            }
+            .li_checked{
+                background-color: rgb(223, 79, 63);
+            }
+        }
+    }
+
+    // 导航栏样式
+    .nav{
+        width: @min-width;
+        height: 9.066667rem;
+        // background-color: #d95155;
+        margin: 0 auto;
+        padding: .266667rem 0;
+        .nav_ul{
+            width: @min-width;
+            height: 100%;
+            display: flex;
+            align-items: center;
+            text-align: center;
+            li{
+                flex: 1;
+                width: 100%;
+                height: 60%;
+                a{
+                    display: block;
+                    width: 50%;
+                    height: 100%;
+                    background: black;
+                    margin: 0 auto;
+                    // background-size: 100% auto;
+                }
+            }
+        }
+    }
+
+    // 主题内容样式
+    .main{
+        width: @min-width;
+        height: 21.333333rem;
+        margin: 0 auto;
+        margin-top: 1.266667rem;
+        .main_item{
+            width: @min-width;
+            height: 100%;
+            margin-top: 1.8rem;
+            .img_title{
+                display: block;
+                width: 90%;
+                margin: 0 auto;
+                height: 4rem;
+                background-color: blue;
+            }
+            .img_content{
+                width: 100%;
+                height: 17.333333rem;
+                a{
+                    display: block;
+                    float: left;
+                    width: 20%;
+                    height: 50%;
+                    margin-left: 6%;
+                    margin-top: 5px;
+                    border-radius: 5px;
+                }
+                & a:first-child{
+                    width: 33.3%;
+                    height: 100%;
+                }
+            }
+        }
+        & .main_item:first-child{
+            margin-top: -30px;
+        }
+    }
+}

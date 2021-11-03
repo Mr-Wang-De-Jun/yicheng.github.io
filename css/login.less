@@ -1,0 +1,91 @@
+// 小屏幕
+@media screen and (max-width: 768px) {
+    @min-width:280px;
+    @max-width: 768px;
+    .main{
+        margin: 0 auto;
+        width: 100%;
+        height: 26.666667rem;
+        margin-top: 5.333333rem;
+        form{
+            width: 90%;
+            margin: 0 auto;
+            label{
+                display: block;
+                width: 100%;
+                height: 2.666667rem;
+                margin-top: .266667rem;
+                margin-bottom: .533333rem;
+                line-height: 2.666667rem;
+                border: 1px solid #ccc;
+                border-radius: .266667rem;
+                padding: .266667rem;
+                input{
+                    height: 100%;
+                }
+                span{
+                    margin-right: .266667rem;
+                }
+            }
+            button{
+                width: 100%;
+                height: 3.2rem;
+                margin-top: 1.066667rem;
+                background-color: brown;
+                color: #fff;
+                border-radius: .4rem;
+                font-size: 1.066667rem;
+            }
+        }
+    }
+}
+// 中等屏幕
+@media screen and (min-width: 768px) and (max-width:1190px) {
+    @min-width:768px;
+    @max-width:1190px;
+    #changeScreen(@min-width,@max-width)
+}
+// 大屏幕
+@media screen and (min-width:1190px){
+    @min-width:1190px;
+    @max-width:1920px;
+    #changeScreen(@min-width,@max-width)
+}
+#changeScreen(@min-width,@max-width){
+    .main{
+        margin: 0 auto;
+        width: @min-width;
+        height: 26.666667rem;
+        margin-top: 5.333333rem;
+        form{
+            width: 90%;
+            margin: 0 auto;
+            label{
+                display: block;
+                width: 100%;
+                height: 2.666667rem;
+                margin-top: .266667rem;
+                margin-bottom: .533333rem;
+                line-height: 2.666667rem;
+                border: 1px solid #ccc;
+                border-radius: .266667rem;
+                padding: .266667rem;
+                input{
+                    height: 100%;
+                }
+                span{
+                    margin-right: .266667rem;
+                }
+            }
+            button{
+                width: 100%;
+                height: 3.2rem;
+                margin-top: 1.066667rem;
+                background-color: brown;
+                color: #fff;
+                border-radius: .4rem;
+                font-size: 1.066667rem;
+            }
+        }
+    }
+}
